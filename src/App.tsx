@@ -7,7 +7,7 @@ import './styles/global.scss';
 
 export function App() {
 
-  const [selectedGenreId, setSelectedGenreId] = useState(2);
+  const [selectedGenreId, setSelectedGenreId] = useState(1);
 
   function handleClickButton(id: number) {
     setSelectedGenreId(id);
